@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "title": "Verbato",
+  "name": "verbato/verbato-widget",
+  "category": "widgets",
+  "icon": "universal-access-alt",
+  "textdomain": "verbato",
+  "example": {},
+  "editorScript": "file:./block.js",
+  "render": "file:./render.php",
+  "attributes": {
+    "character_name": {
+      "type": "string"
+    },
+    "character_guid": {
+      "type": "string"
+    },
+    "background_guid": {
+      "type": "string"
+    },
+    "voice_id": {
+      "type": "string"
+    },
+    "prompt_guid": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

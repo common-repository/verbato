@@ -1,0 +1,418 @@
+/* Navigation */
+
+.verbato-nav-container {
+    max-width: 1000px;
+}
+
+.verbato-nav-tab-wrapper,
+.verbato-nav-tab-wrapper a {
+    border: none;
+}
+
+.verbato-nav-tab-wrapper {
+    padding: 0 13px;
+}
+
+.verbato-nav-tab-wrapper a {
+    width: 100%;
+    max-width: 193px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+.verbato-nav-tab-wrapper a:hover {
+    background: #BBBBBBCC;
+}
+
+.nav-tab {
+    background: #BBBBBB;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 12px 12px 0 0;
+}
+
+a.nav-tab-active,
+a.nav-tab-active:hover {
+    background: #D9D9D9;
+}
+
+.verbato-tab-content {
+    padding: 30px 22px 18px 18px;
+    max-width: 964px;
+    background: #D9D9D9;
+    border-radius: 12px;
+    position: relative;
+}
+
+/* Global styles*/
+.max-width-350 {
+    max-width: 350px;
+}
+
+.max-width-454 {
+    max-width: 454px!important;
+}
+
+.margin-bottom-21 {
+    margin-bottom: 21px;
+}
+
+.margin-top-21 {
+    margin-top: 21px!important;
+}
+
+.verbato-buttons-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.verbato-tab-content .button,
+.verbato-tab-content .button-link {
+    min-width: 97px;
+    height: 32px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.verbato-tab-content .button-link {
+    padding: 0 18px;
+}
+
+.native-link {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.verbato-icon-button {
+    cursor: pointer;
+}
+
+
+/* Verbato form */
+
+.verbato_form {
+    width: 100%;
+}
+
+.verbato-input-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.verbato_form div label,
+.verbato-label {
+    width: 100%;
+    max-width: 237px;
+    text-transform: capitalize;
+    color: #1B2023;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.verbato-input-wrapper div {
+    width: 100%;
+}
+.verbato-input-wrapper div input,
+.verbato-input-wrapper div select {
+    width: 100%;
+    margin-left: 0;
+    max-width: 350px;
+}
+
+.verbato-input-wrapper div h5 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #272D31;
+    margin: 4px 0 21px;
+    max-width: 350px;
+}
+
+.verbato_form div textarea {
+    width: 100%;
+    max-width: 454px;
+    height: 151px;
+}
+
+.verbato-preview {
+    width: 291px;
+    height: 260px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.verbato-preview img.model-image,
+.verbato-preview img.background-image {
+    height: 100%;
+    position: absolute;
+}
+
+.verbato-preview img.model-image {
+    z-index: 1;
+}
+
+/* Global settings page */
+
+.verbato-notice {
+    margin: 15px 0!important;
+}
+
+.settings-form__grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    padding-bottom: 30px;
+}
+
+div label.verbato-file-input-label {
+    width: 348px;
+    height: 81px;
+    border: 1px dashed #2864A5;
+    border-radius: 10px;
+    color: #2864A5;
+    display: flex;margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 237px;
+    max-width: unset;
+}
+
+.verbato_form input[type='file'] {
+    display: none!important;
+}
+
+.verbato-buttons-container {
+    margin-top: 15px;
+}
+
+.verbato-buttons-container.global-settings .cancel-btn {
+    width: 100px;
+    background: #818489;
+    margin-right: 13px;
+}
+
+.verbato-default-voice,
+.verbato-default-background {
+    margin-bottom: 21px;
+}
+
+.verbato-default-voice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.welcome-popup-text {
+    margin-top: 21px;
+}
+
+.verbato-icon-button__audio {
+    margin: 0 10px 0 15px;
+}
+
+/* Preview page */
+
+.verbato-preview-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 450px;
+    background: #C7C7C7;
+    border: 1px solid #000000;
+    margin: 6px auto 62px;
+}
+
+.custom-css {
+    width: 454px;
+    height: 151px;
+}
+
+div.verbato-tab-content div.verbato-buttons-container input.reset-btn {
+    width: auto;
+}
+
+/* Logs page */
+
+.verbato-logs-wrapper {
+    height: 670px;
+    display: grid;
+    grid-template-columns: 39% auto;
+    grid-gap: 12px;
+    margin-bottom: 21px;
+}
+
+.verbato-customer-wrapper,
+.verbato-qa-wrapper {
+    height: 100%;
+    background: #fff;
+    border-radius: 12px;
+    padding: 0 11px 11px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    position: relative;
+}
+
+.verbato-qa-product-link {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 11px;
+    background: #fff;
+    display: block;
+    border-bottom: 1px solid lightgrey;
+    font-size: 14px;
+}
+
+.verbato-logs-customers-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 32px;
+    font-size: 14px;
+    text-decoration: unset;
+    color: #000000;
+}
+
+.verbato-logs-customers-list:hover {
+    color: #00000080;
+}
+
+.verbato-logs-active {
+    font-weight: bold;
+}
+
+.verbato-logs-qa {
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.verbato-logs-question,
+.verbato-logs-answer {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.verbato-logs-question span,
+.verbato-logs-answer span {
+    font-size: 16px;
+}
+
+.verbato-logs-question {
+    color: #00943B;
+    max-width: 450px;
+}
+
+.verbato-logs-answer {
+    color: #007094;
+    max-width: 380px;
+    margin-left: auto;
+}
+
+.verbato-logs-date {
+    color: #000;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+/* Account page */
+
+.account-loader,
+.global-loader {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.4);
+    z-index: 100;
+}
+
+.verbato-account-container {
+    position: relative;
+}
+
+.verbato-account-container .verbato-input-wrapper h5 {
+    max-width: 350px;
+}
+
+.verbato-account-info {
+    max-width: 717px;
+}
+
+.verbato-account-info p{
+    margin-top: 0;
+}
+
+.verbato-client-cards-wrapper {
+    position: relative;
+}
+
+#verbato-client-cards {
+    padding-left: 50px;
+}
+
+.verbato-client-cards-wrapper input#delete-card {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 30px;
+    height: 20px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    color: rgba(44,51,56,.5);
+}
+
+
+.verbato-account-buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.verbato_form .regenerate-btn,
+.verbato_form .refresh-btn {
+    max-width: 135px;
+    margin-left: 13px;
+    height: 30px;
+}
+
+.verbato-account-container .button-link,
+.verbato-account-container .button-link:visited {
+    background: #6000DB;
+}
+
+.verbato-account-container .button-link:hover {
+    background: #6000DBD9;
+}
+
+.verbato-container,
+#verbato-container_product {
+    min-height: 31px;
+    position: relative;
+}
+
+.verbato-card-img {
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+
+.verbato-loader,
+.verbato-loader_product {
+    background-repeat: no-repeat;
+    display: flex;
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    left: calc(50% - 16px);
+    top: calc(50% - 16px);
+}
+
